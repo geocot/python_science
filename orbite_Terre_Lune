@@ -40,6 +40,4 @@ while not arretJeu:
     #Pour animer
     pygame.display.flip()
     angle += 0.005
-    #Remise à zéro pour éviter la saturation en mémoire.
-    if angle== math.pi:
-        angle=0
+
